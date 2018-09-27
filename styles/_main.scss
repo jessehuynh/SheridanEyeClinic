@@ -1,0 +1,248 @@
+main .wrapper {
+	margin:0 auto;
+	width:80%;
+	max-width:1300px;
+	display:flex;
+	flex-flow:column wrap;
+	text-align:center;
+}
+
+p {
+	font-size:1.5rem;
+	color:$soft;
+}
+
+main a, footer a {
+	transition:all 0.25s;
+}
+
+.doctors a:hover, .quarter:nth-of-type(3) a:hover {
+	color:$accentdark;
+	text-decoration:underline;
+}
+
+img {
+	width:100%;
+	display:block;
+}
+
+// ABOUT 
+
+.about, .doctors {
+	text-align:center;
+}
+
+article.about {
+	// border:1px solid red;
+	flex-direction:row-reverse;
+	align-items:center;
+	background:#ffefe0;
+		p {
+			margin:10px 7%;
+			text-align:justify;
+			// width:50%;
+		}
+}
+
+article {
+	display:flex;
+}
+
+.about-right {
+	width:65%;
+	// border:1px solid red;
+}
+
+input, article.about, article.Clens, article.doctors {
+	display:none;
+}
+
+input[type="checkbox"]:checked + article {
+	display:flex;
+	// border:1px solid red;
+}
+
+// LENSES 
+
+.lenses {
+	min-width:100%;
+	text-align:center;
+}
+
+.lenses .sec-background {
+	background:$tertiary;
+	transition:background 0.25s ease-in-out;
+	// border:1px solid red;
+}
+
+.sec-background:hover {
+	background:$accent;
+		h3:hover {
+			color:white;
+		}
+}
+
+article.Clens {
+	text-align:right;
+	background:#ffefe0;
+	border-bottom:1px dotted $accent;
+		li {
+			list-style:none;
+			font-size:1.6rem;
+		}
+		span {
+			font-size:1.6rem;
+			color:$accentdark;
+		}
+}
+
+.Clens span:last-child {
+	// border:1px solid pink;
+	text-transform:uppercase;
+	padding:10px 0;
+		a {
+			text-decoration: none;
+			color:$accentdark;
+		}
+}
+
+.Clens span:last-child::after {
+	content:'»';
+	font-size:2rem;
+}
+
+.lens-half.two {
+	width:50%;
+	// border:1px solid red;
+	background:$soft;
+	color:white;
+	text-align:left;
+	padding:0;
+		ul {
+			width:100%;
+			height:100%;
+			color:white;
+		}
+		li {
+			color:$secondary;
+		}
+		p {
+			color:white;
+		}
+}
+
+.lenses-steps {
+	padding:4%;
+	background:rgba(0,0,0,0.5);
+}
+
+.lens-half.two {
+    background:url(images/ian-dooley-280945-unsplash.jpg) no-repeat;
+    background-size:cover;
+	background-position:350px;
+	background-attachment: fixed;
+}
+
+.lenses-bottom {
+	background:white;
+	width:100%;
+}
+
+
+.brands {
+	background:white;
+	height:200px;
+	width:90%;
+	margin:0 auto;
+		img {
+			width:auto;
+			height:200px;
+		}
+}
+
+.lens-half.one {
+	width:50%;
+	color:$soft;
+	padding:2%;
+		ul {
+			flex-direction:column;	
+			text-align:justify;
+		}
+		p {
+			color:$soft;
+			margin:10px auto;
+		}
+}
+
+.lens-half.one li::before {
+	content:'»';
+	color:$primary;
+	padding:2px;
+}
+
+
+// DOCTORS 
+figure {
+	display:none;
+	align-items:center;
+	font-size:1.2rem;
+	max-height:500px;
+	overflow:hidden;
+	border:1px dotted $secondary;
+	background:white;
+	position:absolute;
+	top:30px;
+		img {
+			width:60%;
+			height:100%;
+			position:relative;
+			top:100px;
+		}
+}
+
+figure.show {
+	display:flex;
+}
+
+img {
+	width:100%;
+	display:block;
+}
+
+figcaption {
+	width:40%;
+	padding:0 20px;
+		p {
+			text-align:justify;
+		}
+}
+
+figure.open {
+	display:flex;
+}
+
+.doctors {
+	position:relative;
+		a {
+			text-decoration:none;
+			color:dimgrey;
+			padding:10px;
+			font-size:1.5rem;
+			margin:0 auto;
+			max-height:40px;
+		}
+}
+
+article.doctors {
+	margin-top:15px;
+}
+
+input[type="checkbox"]:checked + article.doctors {
+	display:flex;
+	height:600px;
+	// border:1px solid red;
+}
+
+.first {
+	display:flex;
+}
