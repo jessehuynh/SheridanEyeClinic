@@ -1,22 +1,21 @@
 footer {
 	background:$tertiary;
 	color:$soft;
-	font-size:1.4rem;
-	 	li {
-	 		list-style:none;
-	 		// border:1px solid red;
-	 	}
+	li {
+		list-style:none;
+		// border:1px solid red;
+	}
 }
 
 footer ul {
 	flex-flow:column wrap;
 	padding:0;
-		a {
-			color:$accent;
-			font-size:1.4rem;
-			padding:3px 10px 3px 0;
-			// border:1px solid yellow;
-		}
+	a {
+		color:$accent;
+		padding:3px 10px 3px 0;
+		font-size:1.8rem;
+		// border:1px solid yellow;
+	}
 }
 
 footer .wrapper {
@@ -35,7 +34,6 @@ button {
 	border:$accent;
 	margin:5px 0;
 	// padding:100px;
-	font-size:1.4rem;
 	text-transform: uppercase;
 	transition:background 0.25s ease-in-out;
 		a {
@@ -64,29 +62,30 @@ button:last-child:active {
 	background:$soft;
 }
 
-.quarter {
+.third {
 	padding:0 30px;
+	width:33%;
+	border:1px solid red;
+}
+
+.third:nth-of-type(2), .third:nth-of-type(3) {
+	padding-left:0;
 	width:30%;
 }
 
-.quarter:nth-of-type(2), .quarter:nth-of-type(3) {
-	padding-left:0;
-	width:20%;
-}
-
-.quarter:nth-of-type(4) {
+.third:nth-of-type(3) {
 	display:flex;
 	flex-direction:column;
 	// border:1px solid red;
 }
 
 h2 {
-	width:80%;
+	width:60%;
 	text-transform: lowercase;
 	color:$secondary;
 	padding:0;
 	text-align:center;
-	font-size:3rem;
+	font-size:3.5rem;
 	font-weight:400;
 	line-height:0.9;
 	margin:10px;
@@ -95,6 +94,6 @@ h2 {
 
 h2::first-line {
 	color:$primary;
-	font-size:3.5rem;
+	font-size:4rem;
 	font-weight:600;
 }

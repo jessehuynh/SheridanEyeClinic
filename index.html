@@ -4,11 +4,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Arimo|Poppins:400,600,700|Roboto+Condensed:400,700|Great+Vibes" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="public/styles/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="image/png" href="images/favicon.png" rel="icon">
 	<meta charset="UTF-8">
-	<title>Project Three - Sheridan Eye Clinic</title>
+	<title>Sheridan Eye Clinic</title>
 </head>
 <body>
 	<div id="fb-root"></div>
@@ -46,15 +46,15 @@
 							<a class="main front" href="https://www.lenscrafters.com/ScheduleExamView?catalogId=11651&clearExams=1&langId=-1&storeNumber=0964&storeId=10851&cid=Yext_PagesSchedule_LCOD0964"><i class="far fa-calendar-check"></i></a>
 						</li>
 						<li>
-							<a class="main back" href="https://www.lenscrafters.com/ScheduleExamView?catalogId=11651&clearExams=1&langId=-1&storeNumber=0964&storeId=10851&cid=Yext_PagesSchedule_LCOD0964">Book an exam</a>
+							<a class="main back" href="https://www.lenscrafters.com/ScheduleExamView?catalogId=11651&clearExams=1&langId=-1&storeNumber=0964&storeId=10851&cid=Yext_PagesSchedule_LCOD0964" target="_blank">Book an exam</a>
 						</li>
 					</div>
 					<div class="circle">
 						<li>
-							<a class="main front" href="#lenses"><i class="fas fa-eye"></i></a>
+							<a class="main front" href="eyes.html"><i class="fas fa-eye"></i></a>
 						</li>
 						<li>
-							<a class="main back" href="#lenses">Contact Lenses</a>
+							<a class="main back" href="eyes.html">Your Eyes</a>
 						</li>
 					</div>
 					<div class="circle">
@@ -100,163 +100,164 @@
 			</nav>
 			<h1>Sheridan Eye Clinic</h1>
 		</div>
+		<ul class="hours">
+			<h4>Open 7 days a week!</h4>
+			<li>Mon - Fri: 10 - 7</li>
+			<li>Sat: 9:30 - 5</li>
+			<li>Sun: 12 - 5</li>
+		</ul>
 	</header>
 
 	<!-- MAIN STYLES -->
 
 	<main>
+		
+		<div class="wrapper">
+			<!-- ABOUT -->
+	
+			<section class="about" id="aboutSheridan">
+				<div class="background wrapper">
+					<article class="about">
+						<h3>About Sheridan Eye Clinic</h3>
+						<p>This family-run small business has been operating for over 20 years and has a team of five optometrists, one optician, and a number of technicians dedicated to taking care of your eyes and answering your questions or concerns.</p>
+						<p>Some of the services we provide include: comprehensive eye examinations for the whole family, contact lens fitting and sales, and laser refractive surgery co-management. We use a number of other diagnostic instruments such as a retinal camera, a visual field analyzer, and an ocular coherence tomographer (OCT) to aid in the diagnosis of significant eye diseases such as diabetes, cataracts, glaucoma, and macular degeneration.</p>
+						<p>We are open seven days a week with walk-in availability for your convenience. If you would like to book an appointment with one of our doctors of optometry, please contact us to <a href="https://www.lenscrafters.com/ScheduleExamView?catalogId=11651&clearExams=1&langId=-1&storeNumber=0964&storeId=10851&cid=Yext_PagesSchedule_LCOD0964" target="_blank">schedule an appointment!</a></p>
+						<p>The Sheridan Eye Clinic is located in Mississauga on Erin Mills Parkway inside the Sheridan Centre next to LensCrafters.</p>
 
-		<!-- ABOUT -->
-
-		<div id="aboutSheridan" class="about">
-			<section class="about">
-				<div class="sec-background">
-					<label for="about" class="about"><h3>About Sheridan Eye Clinic</h3></label>
+					</article>
 				</div>
-				<input type="checkbox" id="about" name="about">
-				<article class="about">
-					<div class="about-right"> 
-						<!-- <span>About Us</span> -->
-						<div class="abouttext">
-							<p>The Sheridan Eye Clinic is located in Mississauga on Erin Mills Parkway inside the Sheridan Centre next to LensCrafters.</p> 
-							<p>This family-run small business has been operating for over 20 years and has a team of five optometrists, one optician, and a number of technicians dedicated to taking care of your eyes and answering your questions or concerns.</p>
-							<p>Some of the services we provide include: comprehensive eye examinations for the whole family, contact lens fitting and sales, and laser refractive surgery co-management. We use a number of other diagnostic instruments such as a retinal camera, a visual field analyzer, and an ocular coherence tomographer (OCT) to aid in the diagnosis of significant eye diseases such as diabetes, glaucoma, and macular degeneration.</p>
-							<p>We are open seven days a week with walk-in availability for your convenience. If you would like to book an appointment with one of our doctors of optometry, please contact us to schedule an appointment!</p>
-						</div>
-					</div>
-					<div class="about-left">
-						<img src="images/clinicwide.JPG" alt="Front of the Sheridan Eye Clinic">
-					</div>
-				</article>
 			</section>
-		</div>
 
-		<!-- CONTACT LENSES -->
-
-		<section id="lenses" class="lenses">
-			<div class="lenses">
-				<div class="sec-background">
-					<label for="Clens" class="Clens"><h3>Contact Lenses & Brands</h3></label>
-				</div>
-				<input type="checkbox" id="Clens" name="Clens">
-				<article class="Clens" id="lenses">
-					<div class="lens-half one">
-						<span>Purchasing Contact Lenses</span> 
-						<p>Doctors of Optometry ensure your contact lenses properly correct your vision and attend to your eye health needs.</p>
-						<p>Our dispensaries offer a wide variety of contact lens styles and brands. However, not all contact lenses are created equal. It is important to remember that every contact lens product is unique and designed for a particular purpose. This includes everything from material, curvature, fit, oxygen permeability, deposit resistance, moisture content and lifespan. It is never recommended to switch the brand of lenses you are using without consulting a licensed eye care professional. Buying your contact lenses from a Doctor of Optometry will ensure you achieve optimal vision, comfort and eye health.</p>
-						<span>By working with your Doctor of Optometry, you will have certainty of:</span>
-						<ul>
-							<li>The proper contact lens prescription, curvature, and modality based on lifestyle needs, and measurements of your eye curvature, tear chemistry and prescription.</li>
-							<li>The appropriate selection of a care system and solutions based on compatibility with different lens materials and compatibility with your eyes.</li>
-							<li>Professional monitoring to ensure optimum eye health, good vision and comfortable wear.</li>
-							<li>Updates with new lens technology that may better suit your particular vision needs or lifestyle demands.</li>
-						</ul> 
-							<p>See your Doctor of Optometry annually to monitor the health of your eyes and receive a personal consultation on your contact lens needs. This includes seeking immediate care if you experience any discomfort or vision change, and reporting any problems that may arise.</p>
-							<p>Buying Contact Lenses Online Purchasing contact lenses online comes with risks to your vision and eye health. Contact lenses are medical devices that sit directly on your corneas, and lenses that don’t fit correctly, or are not properly used and care for, can cause serious damage to your eyes. Some online sites do not verify the prescription. Without proper verification, you risk wearing an optically incorrect or improperly fitting lens. Many online sites - including those based in Canada - sell products that have not been approved by Health Canada, and the safety of these lenses has not been tested. Your Doctor of Optometry will only fit lenses approved by Health Canada to ensure that your lenses are authentic, accurate, and safe to wear.</p>
-							<span><a href="#brands">Brands we carry</a></span>
-					</div>
-					<div class="lens-half two">
-						<div class="lenses-steps">
-							<span>Contact Lens Fitting</span>
-							<li>
-								Step 1: Eye Exam &amp; Prescription
-								<p>Your Doctor of Optometry will evaluate your overall eye health to ensure your eyes are suitable for wearing contacts. If vision correction is required, a prescription is issued that describes the glasses power needed. They will convert this value into your contact lens power.</p>
-							</li>
-							<li>
-								Step 2: Measurements
-								<p>A keratometer is used to determine the curvature of your eye, which will determine the curvature and size of your contact lenses.</p>
-							</li>
-							<li>
-								Step 3: Corneal Evaluation
-								<p>Your Doctor of Optometry will evaluate the health of your cornea and the dryness of your eyes to determine the best contact lens composition and solution. This requires a test to evaluate the tear film of your eyes. Allergies and lifestyle choices will also be considered.</p>
-							</li>
-							<li>
-								Step 4: Trial Contact Lenses
-								<p>Your Doctor of Optometry will prescribe a trial pair of lenses to be used for period of time. The chosen contact lenses will be the best ones to meet your individual needs.</p>
-							</li>
-							<li>
-								Step 5: Final Eye Health Check Up
-								<p>At a follow-up appointment, your Doctor of Optometry will determine if your contacts are providing optimal comfort and clarity, while maintaining healthy eyes. If they are, a final contact lens prescription will be provided.</p>
-							</li>
+			<!-- WHY US -->
+			<section class="why">
+				<h3>Your vision and eye health is our focus!</h3>
+				<ul>
+					<li>
+						<h4>Dedicated</h4>
+						<p>Over 20 years of great customer service!</p>
+						<p>We offer comprehensive eye care and quality eye care products</p>
+					</li>
+					<li>
+						<h4>Convenient</h4>
+						<p>We are open 7 days a week.</p>
+						<p>No appointment? Walk-Ins welcome!</p>
+					</li>
+					<li>
+						<h4>Variety</h4>
+						<p>We carry the top brands for contact lenses.</p>
+						<p>Need glasses? Lenscrafters has got your eyes covered!</p>
+					</li>
+				</ul>
+			</section>
+				
+			<!-- DOCTORS -->
+	
+			<section id="docs" class="doctors">
+				<div class="wrapper">
+					<div class="doctors-top">
+						<h3>Our Doctors</h3>
+							<ul>
+								<li><a id="#wu" class="doctors">Dr. Michael Wu</a></li>
+								<li><a id="#koo" class="doctors">Dr. Andrea Koo</a></li>
+								<li><a id="#tang" class="doctors">Dr. Ernest Tang</a></li>
+								<li><a id="#vo" class="doctors">Dr. Tracy Vo</a></li>
+								<li><a id="#nguyen" class="doctors">Dr. Viki Nguyen</a></li>
+								<li><a id="#sTang" class="doctors">Stephanie Tang</a></li>
+							</ul>
+					
 						</div>
-						<div class="lenses-bottom">
-							<div id="brands" class="brands">
-								<img src="images/jnj.png" alt="">
-								<img src="images/baush-lomb-logo-624x468.jpg" alt="">
-								<img src="images/CooperVision logo - Vertical-large.jpg" alt="">
-								<img src="images/alcon.jpeg" alt="">
+						<article class="doctors-list">
+						
+						<figure id="wu" class="doc show first">
+							<img src="./assets/Mike.jpg" alt="Headshot of one of our optometrists, Dr. Michael Wu">
+							<div class="background">
+								<figcaption>
+									<h4>Dr. Michael Wu</h4>
+									<h5>Optometrist</h5>
+									<p>Dr. Michael Wu completed his undergraduate education with an Honours Bachelor of Science degree at the University of Toronto - Mississauga and is a 2006 graduate of the Illinois College of Optometry.</p>
+									<p>Dr. Wu has previously served on the board of directors for the Ontario Association of Optometrists and on several committees involved with advocacy and membership. Not only is Dr. Wu committed to his career and his patients, he is also a devoted husband and father. His personal interests include photography, travel, and basketball.</p>
+								</figcaption>
 							</div>
-						</div>
-					</div>
-				</article>
-
-
-			</div>
-		</section>
-		</div>	
-
-		<!-- DOCTORS -->
-
-		<section id="docs" class="doctors">
-			<div class="sec-background">
-				<label for="doctors" class="doctors"><h3>Our Doctors</h3></label>
-			</div>
-			<div class="wrapper">
-				<input type="checkbox" id="doctors" name="doctors">
-				<article class="doctors">
-					<a href="#wu" class="doctors">Dr. Michael Wu</a></label>
-					<input type="checkbox" id="pizza" name="pizza">
-					<figure id="wu" class="first">
-						<img src="images/Mike.jpg" alt="">
-						<figcaption>
-							<h4>Dr. Michael Wu</h4>
-							<h5>Optometrist</h5>
-							<p>Dr. Michael Wu completed his undergraduate education with an Honours Bachelor of Science degree at the University of Toronto - Mississauga and is a 2006 graduate of the Illinois College of Optometry.</p>
-							<p>Dr. Wu has previously served on the board of directors for the Ontario Association of Optometrists and on several committees involved with advocacy and membership. Not only is Dr. Wu committed to his career and his patients, he is also a devoted husband and father. His personal interests include photography, travel, and basketball.</p>
-						</figcaption>
-					</figure>
-					<a href="#koo" class="doctors">Dr. Andrea Koo</a>
-					<figure id="koo">
-						<img src="images/Andrea Headshot.jpg" alt="">
-						<figcaption>
-							<h4>Dr. Andrea Koo</h4>
-							<h5>Optometrist</h5>
-							<p>Dr. Andrea Koo was born in Toronto and raised in Mississauga, Ontario. She graduated with an Honours Bachelor of Science degree from McMaster University and received her Doctor of Optometry degree with Honours from the University of Waterloo School of Optometry and Vision Science.</p>
-							<p>While on externship at the Eye Centers of South Florida in Ft. Lauderdale, FL and North Miami Beach, FL, she worked extensively with ophthalmologists and optometrists who specialize in ocular disease, refractive surgery, contact lenses, neuro-ophthalmology, oculoplastics, and primary care. She has also volunteered on a mission trip to Peru with VOSH International. Dr. Koo is fluent in English and Cantonese. In her free time, she likes to watch movies, jog, and travel.</p>
-						</figcaption>
-					</figure>
-					<a href="#tang" class="doctors">Dr. Ernest Tang</a>
-					<figure id="tang">
-						<img src="images/Ernest.jpg" alt="">
-						<figcaption>
-							<h4>Dr. Ernest Tang</h4>
-							<h5>Optometrist</h5>
-							<p>Dr. Ernest Tang is a graduate of the University of Waterloo School of Optometry and completed both his Bachelor of Science and Doctor of Optometry in 2010. He completed a clinical rotation at OMNI Eye Institute in Atlanta, Georgia, where he worked with respected glaucoma, cataract, and retinal surgeons, focusing extensively on therapeutics for treatment of anterior segment diseases.</p>
-							<p>A proud member of the Ontario Association of Optometrists (OAO) since 2010, Dr.Tang also works as an optometrist at LASIK MD where numerous surgical procedures including LASIK, PRK, RLE (Refractive Lens Exchange), and more recently, CXL (Corneal Cross Linking) for patients with Keratoconus are offered. Outside of the clinic, Dr. Tang likes to travel and snowboard. He is fluent in both English and Cantonese Chinese.</p>
-						</figcaption>
-					</figure>
-					<a href="#zhang" class="doctors">Dr. Diana Zhang</a>
-					<figure id="zhang">
-						<img src="images/Diana.jpg" alt="">
-						<figcaption>
-							<h4>Dr. Diana Zhang</h4>
-							<h5>Optometrist</h5>
-							<p>Dr. Zhang received her Doctor of Optometry from Pennsylvania College of Optometry following her completion of her Honours Bachelor of Science degree from University of Toronto. She completed her training in many specialized areas in United States, including treatment and management of eye pathologies, paediatrics, geriatrics, binocular vision training, and contact lenses. During her extensive training, Dr. Zhang has worked under surgeons to care for pre-operative and post-operative cataract surgeries, LASIK surgeries, and blepharoplasty surgeries. Dr. Zhang received her training at Einstein Hospital in Philadelphia, Veteran’s Affair hospital in Virginia, and at a group ophthalmology practice in Pennsylvania.</p>
-							<p>Dr. Zhang is an active member of the Canadian Association of Optometrists and the Ontario Association of Optometrists. While she is not tending to patient care, Dr. Zhang loves to keep herself busy looking for new food to try in the city. She loves Italian pizzas and her mission is to try all pizzas in town.</p>
-						</figcaption>
-					</figure>
-					<a href="#vo" class="doctors">Dr. Tracy Vo</a>
-					<figure id="vo">
-						<img src="images/Tracy.jpg" alt="">
-						<figcaption>
-							<h4>Dr. Tracy Vo</h4>
-							<h5>Optometrist</h5>
-							<p>Dr. Tracy Vo was born and raised in Toronto. She attended North Toronto C.I. and studied at York University before obtaining her optometry degree from the University of Waterloo School of Optometry &amp; Vision Science graduating with Dean’s honours and receiving the prestigious Ontario Association of Optometrists Award for Excellence in Patient Management.</p>
-							<p>Dr. Vo has completed an intensive externship at the Eye Foundation of Utah which focused on ocular disease treatment and management and has participated in outreach missions to Mexico and Jamaica providing optometric care to the underprivileged. Outside of the clinic, Dr. Vo is very family oriented and has interests that are of the active nature including indoor rock climbing and outdoor sports. She is fluent in English as well as Vietnamese.</p>
-						</figcaption>
-					</figure>
-				</article>	
-		</section>
+						</figure>
+								
+						<figure id="koo" class="doc show">
+							<img src="./assets/Andrea Headshot.jpg" alt="Headshot of one of our optometrists, Dr. Andrea Koo">
+							<div class="background">
+								<figcaption>
+									<h4>Dr. Andrea Koo</h4>
+									<h5>Optometrist</h5>
+									<p>Dr. Andrea Koo was born in Toronto and raised in Mississauga, Ontario. She graduated with an Honours Bachelor of Science degree from McMaster University and received her Doctor of Optometry degree with Honours from the University of Waterloo School of Optometry and Vision Science.</p>
+									<p>While on externship at the Eye Centers of South Florida in Ft. Lauderdale, FL and North Miami Beach, FL, she worked extensively with ophthalmologists and optometrists who specialize in ocular disease, refractive surgery, contact lenses, neuro-ophthalmology, oculoplastics, and primary care. She has also volunteered on a mission trip to Peru with VOSH International. Dr. Koo is fluent in English and Cantonese. In her free time, she likes to watch movies, jog, and travel.</p>
+								</figcaption>
+							</div>
+						</figure>
+					
+						<figure id="tang" class="doc show">
+							<img src="./assets/Ernest.jpg" alt="Headshot of one of our optometrists, Dr. Ernest Tang">
+							<div class="background">
+								<figcaption>
+									<h4>Dr. Ernest Tang</h4>
+									<h5>Optometrist</h5>
+									<p>Dr. Ernest Tang is a graduate of the University of Waterloo School of Optometry and completed both his Bachelor of Science and Doctor of Optometry in 2010. He completed a clinical rotation at OMNI Eye Institute in Atlanta, Georgia, where he worked with respected glaucoma, cataract, and retinal surgeons, focusing extensively on therapeutics for treatment of anterior segment diseases.</p>
+									<p>A proud member of the Ontario Association of Optometrists (OAO) since 2010, Dr.Tang also works as an optometrist at LASIK MD where numerous surgical procedures including LASIK, PRK, RLE (Refractive Lens Exchange), and more recently, CXL (Corneal Cross Linking) for patients with Keratoconus are offered. Outside of the clinic, Dr. Tang likes to travel and snowboard. He is fluent in both English and Cantonese Chinese.</p>
+								</figcaption>
+							</div>
+						</figure>
+					
+						
+						<figure id="vo" class="doc show">
+							<img src="./assets/Tracy.jpg" alt="Headshot of one of our optometrists, Dr. Tracy Vo">
+							<div class="background">
+								<figcaption>
+									<h4>Dr. Tracy Vo</h4>
+									<h5>Optometrist</h5>
+									<p>Dr. Tracy Vo was born and raised in Toronto. She attended North Toronto C.I. and studied at York University before obtaining her optometry degree from the University of Waterloo School of Optometry &amp; Vision Science graduating with Dean’s honours and receiving the prestigious Ontario Association of Optometrists Award for Excellence in Patient Management.</p>
+									<p>Dr. Vo has completed an intensive externship at the Eye Foundation of Utah which focused on ocular disease treatment and management and has participated in outreach missions to Mexico and Jamaica providing optometric care to the underprivileged. Outside of the clinic, Dr. Vo is very family oriented and has interests that are of the active nature including indoor rock climbing and outdoor sports. She is fluent in English as well as Vietnamese.</p>
+								</figcaption>
+							</div>
+						</figure>
+				
+						<figure id="nguyen" class="doc show">
+							<img src="./assets/Viki.jpg" alt="Headshot of one of our optometrists, Dr. Viki Nguyen">
+							<div class="background">
+								
+								<figcaption>
+									<h4>Dr. Viki Nguyen</h4>
+									<h5>Optometrist</h5>
+									<p>
+										Dr Viki Nguyen has roots in Toronto, ON and was raised in Parkdale neighbourhood. After attending St. Mary’s Catholic
+										Secondary School, Dr. Nguyen went on to graduate with a bachelor of science degree specializing in neuroscience and
+										majoring in psychology with distinction from the University of Toronto St. George. Her doctorate of optometry was later
+										obtained from the University of Waterloo School of Optometry along with being on the Dean’s Honor List.
+									</p>
+		
+									<p>
+										Dr. Nguyen finished her ocular disease and therapy internship at Jack C. Montgomery Veteran Affairs in Oklahoma and has
+										a passion for specialty contact lens fittings. She is dedicated to quality patient care and can provide it in both
+										English and Vietnamese.
+									</p>
+									
+									<p>
+										Away from the office, Dr. Nguyen can be found year-round running on Toronto’s green fields playing Ultimate Frisbee.
+										She is otherwise spending time with friends, family, and her dog.
+									</p>
+								</figcaption>
+							</div>
+						</figure>
+				
+						<figure id="sTang" class="doc show">
+							<img src="./assets/Stephanie.jpg" alt="Headshot of our optician, Stephanie Tang">
+							<div class="background">
+								
+								<figcaption>
+									<h4>Stephanie Tang</h4>
+									<h5>Optician</h5>
+									<p>Stephanie's biography is coming really soon, we promise!</p>
+								</figcaption>
+							</div>
+						</figure>
+					</article>	
+			</section>
 		</div>
 	</main>
 
@@ -264,21 +265,10 @@
 
 	<footer>
 		<div class="wrapper">
-			<div class="quarter">
+			<div class="third">
 				<h2>Sheridan Eye Clinic</h2>
 			</div>
-			<div class="quarter">
-				<ul>
-					<li>Monday: 10 - 7</li>
-					<li>Tuesday: 10 - 7</li>
-					<li>Wednesday: 10 - 7</li>
-					<li>Thursday: 10 - 7</li>
-					<li>Friday: 10 - 7</li>
-					<li>Saturday: 9:30 - 5</li>
-					<li>Sunday: 12 - 5</li>
-				</ul>
-			</div>
-			<div class="quarter">
+			<div class="third">
 				<nav>
 					<ul>
 						<li>E: <a href=mailto:info@sheridaneyeclinic.com>info@sheridaneyeclinic.com</a></li>
@@ -289,7 +279,7 @@
 				</nav>
 				<div class="fb-like" data-href="https://www.facebook.com/SheridanEyeClinic/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
 			</div>
-			<div class="quarter">
+			<div class="third">
 				<button><a href="https://www.lenscrafters.com/ScheduleExamView?catalogId=11651&clearExams=1&langId=-1&storeNumber=0964&storeId=10851&cid=Yext_PagesSchedule_LCOD0964">Schedule your exam</a></button>
 				<button><a href="http://maps.google.com/?q=2225+Erin+Mills+Parkway%2C+Mississauga%2C+ON+L5K+1T9+CA+%28Sheridan+Eye+Clinic%29&output=classic">Get Directions</a></button>
 			</div>
@@ -301,6 +291,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+	<script src="./src/scripts/app.js"></script>
 	
 	<script>
 		$(function() {
@@ -324,25 +315,6 @@
 		   	$('.exit-responsive').on('click', function(){
 		   		$('.menu').toggleClass('show');
 		   	});
-
-
-// I KNOW IT'S NOT DRY BUT IT WORKS :D...
-
-			$('label.about').on('click',function(){
-				console.log('golden turnip cakes');
-				$('article.about').slideToggle('slow', function(){
-				});
-				});	
-
-			$('label.Clens').on('click',function(){
-				console.log('golden turnip cakes');
-				$('article.Clens').slideToggle('slow');
-				});	
-			$('label.doctors').on('click',function(){
-				console.log('golden turnip cakes');
-				$('article.doctors').slideToggle('slow', function(){
-				});
-				});	
 
 // I still couldn't figure out why my images in flickity won't show until I re-size the browser by 1mm or open inspect
 
